@@ -102,7 +102,7 @@ public class BaseClass {
 			System.out.println("---Login successfully---");
 		}
         
-	@AfterMethod(groups={"sprint-1","Sprint-2"})
+//	@AfterMethod(groups={"sprint-1","Sprint-2"})
 		public void amConfig() throws Exception
 		{
 		    Thread.sleep(4000);
@@ -118,7 +118,7 @@ public class BaseClass {
 		    System.out.println("Logout Successfully");
 		}
         
-	@AfterClass(groups={"sprint-1","Sprint-2"})
+//	@AfterClass(groups={"sprint-1","Sprint-2"})
 		public void acConfig() throws InterruptedException
 		{
 		try 
